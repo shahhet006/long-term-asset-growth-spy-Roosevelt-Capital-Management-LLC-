@@ -1,0 +1,40 @@
+Application Question: 
+
+Using Python or R and Yahoo Finance SPY data (adjusted close), calculate a monthly total return index (starting at 1.0) and the final value of a $1,000,000 investment held for exactly 15 years 
+starting on: 1/1/1995, 1/1/2000, 1/1/2005, and 1/1/2008. Assume no withdrawals and that dividends are reinvested. Please provide your code and analysis either directly in your message response 
+or via a GitHub link. 
+(1) Total return index and ending value for each start date 
+(2) Which start date performed best and worst 
+(3) Your conclusions on how investment timing affects outcomes and what general guidance, if any, you would have offered these investors at the time of their investment (without hindsight).
+
+1. Total Return Index & Ending Value
+Here is the performance breakdown of the $1,000,000 investment for each 15-year period, based on your data:
+Start Date,End Date,Total Return Multiplier,Final Investment Value,Annualized Return (CAGR)
+"Jan 1, 1995","Dec 31, 2009",3.06x,"$3,057,429",7.74%
+"Jan 1, 2000","Dec 31, 2014",1.94x,"$1,941,406",4.52%
+"Jan 1, 2005","Dec 31, 2019",3.68x,"$3,679,661",9.07%
+"Jan 1, 2008","Dec 30, 2022",3.74x,"$3,737,275",9.19%
+
+2. Best and Worst Performers
+Best Performer: Jan 1, 2008 ($3.74M | 9.19% CAGR)
+
+The Result: Surprisingly, the investor who started the year of the Great Financial Crisis ended up with the most money.
+
+Why: Although they faced an immediate crash in 2008 (-37%), they bought at the bottom of the market through dividends and then rode the entire 2009–2021 historic bull market. Their 15-year clock stopped right at the end of 2022, capturing the vast majority of that growth.
+
+Worst Performer: Jan 1, 2000 ($1.94M | 4.52% CAGR)
+
+The Result: This investor ended up with almost 50% less than the 2008 investor.
+
+Why: They faced the "double whammy." They started at the peak of the Dot-com bubble (high valuations), spent years recovering, and then got hit by the 2008 crash right before their 15-year clock ran out (in 2014).
+
+Difference: The timing difference between the best and worst start dates resulted in a $1.8 million gap (a 92.5% difference in final wealth).
+
+
+3. Conclusions & Guidance (Without Hindsight)
+Conclusions on Timing
+High Valuations are the Biggest Risk: The 2000 cohort performed worst not just because of the crash, but because they paid a premium price to enter the market.
+
+Crisis Can Be Opportunity: The 2008 investor entered a terrifying market, yet they won. This proves that when you are in the market matters less than staying in the market during recoveries. The 2008 investor's "bad luck" of starting before a crash was outweighed by the "good luck" of riding the subsequent 13-year recovery.
+
+15 Years Reduces, But Doesn't Eliminate, Risk: Even the worst performer nearly doubled their money (1.94x). However, asset allocation is crucial—if the 2000 investor needed that money in 2014, they likely felt "poor" compared to their peers.
